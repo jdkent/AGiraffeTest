@@ -6,11 +6,11 @@
     },
     {
       "from": "5a47080",
-      "to": "759f7e8"
+      "to": "fadb98ce-9a2c-4a79-a4a0-590a6ca44a74"
     },
     {
-      "from": "541de58",
-      "to": "5a52c28"
+      "from": "aff116bc-5dda-42c3-b0f2-84b6eea54f52",
+      "to": "759f7e8"
     }
   ],
   "nodes": [
@@ -23,7 +23,7 @@
         {
           "base": "outfiles",
           "editable": true,
-          "id": "be0e456f-dc17-4aad-9a30-9629a3d02a97",
+          "id": "4cf398cf-868c-45ec-bd88-30dc0af560b8",
           "input": false,
           "inputPort": false,
           "name": "outfiles",
@@ -36,7 +36,7 @@
         {
           "base": "bucket",
           "editable": true,
-          "id": "5d7caa8d-a991-4b22-bd7d-f0f3843fc50c",
+          "id": "5d352f21-92e0-4ed1-b402-e0ec9fb45743",
           "input": true,
           "inputPort": "541d1d8",
           "name": "bucket",
@@ -49,7 +49,7 @@
         {
           "base": "sort_filelist",
           "editable": true,
-          "id": "965d73c7-2040-491b-bda3-9ded4507271e",
+          "id": "c5352407-997f-49f2-bc77-b696b7b2ca38",
           "input": true,
           "inputPort": "541da20",
           "name": "sort_filelist",
@@ -62,20 +62,20 @@
         {
           "base": "template",
           "editable": true,
-          "id": "cb47d407-8972-4c03-9350-ea26ea913dc8",
+          "id": "829eeabe-5a2a-4ed8-8496-bb5aa12e90a6",
           "input": true,
           "inputPort": "541e0d8",
           "name": "template",
           "output": false,
           "outputPort": false,
-          "value": "'sub-01/anat/sub-01_T1w.nii.gz'",
+          "value": "'sub-[0-9]+/anat/sub-[0-9]+_T1w.nii.gz'",
           "visible": true,
           "iterator": false
         },
         {
           "base": "anon",
           "editable": true,
-          "id": "56a9d6be-0ed0-4c07-993a-87dbad119015",
+          "id": "85f767bc-6d8a-48f0-82e1-549658c353e0",
           "input": true,
           "inputPort": "541e380",
           "name": "anon",
@@ -88,7 +88,7 @@
         {
           "base": "region",
           "editable": true,
-          "id": "ca440615-20ad-40a3-88ee-9fafeeb12aaf",
+          "id": "aaaf5570-e192-461b-99ec-9f04aced5040",
           "input": true,
           "inputPort": "541e6f0",
           "name": "region",
@@ -101,7 +101,7 @@
         {
           "base": "bucket_path",
           "editable": true,
-          "id": "77fefe30-c084-48be-9aaa-3e1be11910de",
+          "id": "b3bb4a0e-c1ba-4ef5-a485-5f1091044221",
           "input": true,
           "inputPort": "541e560",
           "name": "bucket_path",
@@ -114,7 +114,7 @@
         {
           "base": "local_directory",
           "editable": true,
-          "id": "304b4249-af1f-4024-b735-c622fb752a8b",
+          "id": "945c7c2c-968d-445a-a37a-7dc482ff7b29",
           "input": true,
           "inputPort": "541e790",
           "name": "local_directory",
@@ -127,7 +127,7 @@
         {
           "base": "raise_on_empty",
           "editable": true,
-          "id": "30cdd6c9-6dbe-4da2-98c5-b84a41df1697",
+          "id": "89726ff5-89da-481f-91f0-4417a796e37d",
           "input": true,
           "inputPort": "541ea60",
           "name": "raise_on_empty",
@@ -140,7 +140,7 @@
         {
           "base": "template_args",
           "editable": true,
-          "id": "ebc890a2-18da-49c7-a7b5-e7e62e28fa33",
+          "id": "47101074-d596-4001-8667-b1eb87e8373c",
           "input": true,
           "inputPort": "541ee48",
           "name": "template_args",
@@ -153,7 +153,7 @@
         {
           "base": "ignore_exception",
           "editable": true,
-          "id": "51702c5a-548c-40e2-be1e-78f5c74c6354",
+          "id": "5f974d8b-1970-4b6a-9150-da3306e51c5a",
           "input": true,
           "inputPort": "541caf8",
           "name": "ignore_exception",
@@ -165,8 +165,8 @@
         }
       ],
       "position": [
-        -907.8369140625,
-        -302.21629333496094
+        -1097.9945678710938,
+        -326.4195251464844
       ],
       "title": {
         "code": [
@@ -200,7 +200,7 @@
         {
           "base": "in_file",
           "editable": true,
-          "id": "59ba334d-d590-4a02-b81f-67cb43186a93",
+          "id": "025d6f90-bd23-4759-a395-8a23a4abc4ef",
           "input": true,
           "inputPort": "5a52868",
           "name": "in_file",
@@ -213,7 +213,7 @@
         {
           "base": "out_file",
           "editable": true,
-          "id": "f1604205-b13b-4648-9167-fc56dcc8fffc",
+          "id": "31fd5244-e14c-4d60-b8f2-032a4ce52eba",
           "input": true,
           "inputPort": "5a52f98",
           "name": "out_file",
@@ -226,20 +226,20 @@
         {
           "base": "outline",
           "editable": true,
-          "id": "fa32f230-eef4-41b6-9c04-b31d1aafd6f3",
+          "id": "261797fb-9d5a-4a17-b9b2-5666393ce68b",
           "input": true,
           "inputPort": "5a52c28",
           "name": "outline",
           "output": false,
           "outputPort": false,
           "value": "",
-          "visible": true,
+          "visible": false,
           "iterator": false
         },
         {
           "base": "mask",
           "editable": true,
-          "id": "df066563-61b5-40ed-bd66-7913b3c57aa0",
+          "id": "c849549c-7710-4f0e-92ab-dbbdae8ce3a8",
           "input": true,
           "inputPort": "5a53358",
           "name": "mask",
@@ -252,7 +252,7 @@
         {
           "base": "skull",
           "editable": true,
-          "id": "a38c658d-52df-4a23-9a85-3b9f93ff93e6",
+          "id": "34e22234-a714-4ead-a1cb-8daacb2ee19b",
           "input": true,
           "inputPort": "5a53088",
           "name": "skull",
@@ -265,7 +265,7 @@
         {
           "base": "no_output",
           "editable": true,
-          "id": "58ffa129-5e45-4077-a51a-44de09f62295",
+          "id": "3fdde713-b810-4f4a-a332-66bb83ed60aa",
           "input": true,
           "inputPort": "5a531c8",
           "name": "no_output",
@@ -278,7 +278,7 @@
         {
           "base": "frac",
           "editable": true,
-          "id": "17346226-2993-48a4-9931-b9490104da1a",
+          "id": "f0d82e71-9990-461a-a703-845ed0967124",
           "input": true,
           "inputPort": "5a53718",
           "name": "frac",
@@ -291,7 +291,7 @@
         {
           "base": "vertical_gradient",
           "editable": true,
-          "id": "a9f9c29d-0d8c-46e0-879f-dcb964cb3f69",
+          "id": "b066ca67-d1d5-4a79-a571-cfd5556988f4",
           "input": true,
           "inputPort": "5a53998",
           "name": "vertical_gradient",
@@ -304,7 +304,7 @@
         {
           "base": "radius",
           "editable": true,
-          "id": "b73ad902-982e-4100-aafb-d4532bf1ec22",
+          "id": "f72fc856-fada-4610-9ab0-21d5edaac7ee",
           "input": true,
           "inputPort": "5a53e20",
           "name": "radius",
@@ -317,7 +317,7 @@
         {
           "base": "center",
           "editable": true,
-          "id": "464efc4c-e215-421e-b0df-72a2b9a34c81",
+          "id": "d60123fc-03fa-4020-b242-228d4a5fd5ae",
           "input": true,
           "inputPort": "5a53c68",
           "name": "center",
@@ -330,7 +330,7 @@
         {
           "base": "threshold",
           "editable": true,
-          "id": "14f9957d-28ae-4f77-a24e-e460240ac1da",
+          "id": "f9f944f8-fc5d-440f-823a-754a9ba4fa3b",
           "input": true,
           "inputPort": "5a53e70",
           "name": "threshold",
@@ -343,7 +343,7 @@
         {
           "base": "mesh",
           "editable": true,
-          "id": "2042c6ba-99a0-4296-9158-f9ec57b2bb78",
+          "id": "07e8dc64-e763-4070-ae9a-c6519e901b8a",
           "input": true,
           "inputPort": "5a54488",
           "name": "mesh",
@@ -356,20 +356,20 @@
         {
           "base": "robust",
           "editable": true,
-          "id": "e93cb2b1-39d3-4362-aa48-41c4e4f9d458",
+          "id": "6d26725d-1ffa-4fb1-bd68-d1f206ba09e1",
           "input": true,
           "inputPort": "5a54730",
           "name": "robust",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "True",
           "visible": false,
           "iterator": false
         },
         {
           "base": "padding",
           "editable": true,
-          "id": "864932ad-b52e-44a9-808d-684da1b02e83",
+          "id": "6972c74a-885e-47c4-9d33-0588c6f72fda",
           "input": true,
           "inputPort": "5a44b00",
           "name": "padding",
@@ -382,7 +382,7 @@
         {
           "base": "remove_eyes",
           "editable": true,
-          "id": "16d969e8-bcae-4c58-b416-89bd45e16379",
+          "id": "a3765825-3aae-44c6-82bd-22081943c745",
           "input": true,
           "inputPort": "5a44f60",
           "name": "remove_eyes",
@@ -395,7 +395,7 @@
         {
           "base": "surfaces",
           "editable": true,
-          "id": "9572e989-7d56-44f7-9123-2ca5ff039821",
+          "id": "d6e54b06-7431-4e19-b59c-d9173293546e",
           "input": true,
           "inputPort": "5a45208",
           "name": "surfaces",
@@ -408,7 +408,7 @@
         {
           "base": "t2_guided",
           "editable": true,
-          "id": "429beae5-ea27-4f7e-90d4-91a90644b866",
+          "id": "8738d84c-c618-450e-ab44-d52ace9638c4",
           "input": true,
           "inputPort": "5a44ee8",
           "name": "t2_guided",
@@ -421,7 +421,7 @@
         {
           "base": "functional",
           "editable": true,
-          "id": "0c92ee81-8c97-4028-8d47-5be3e229b9d4",
+          "id": "8acbb1a9-4cd0-4543-aff0-e77e8aa7b0ad",
           "input": true,
           "inputPort": "5a456e0",
           "name": "functional",
@@ -434,7 +434,7 @@
         {
           "base": "reduce_bias",
           "editable": true,
-          "id": "c88f0b16-756a-42ee-82a2-1a25fdb475e1",
+          "id": "1af8d963-5a58-401e-8b24-0d2f292cd3c5",
           "input": true,
           "inputPort": "5a45780",
           "name": "reduce_bias",
@@ -447,7 +447,7 @@
         {
           "base": "output_type",
           "editable": true,
-          "id": "06e0f64d-b0ac-4e0d-bf7c-aa4abf3b9e50",
+          "id": "afcf7340-0074-46bb-a4c0-f23f30333eca",
           "input": true,
           "inputPort": "5a45c80",
           "name": "output_type",
@@ -460,7 +460,7 @@
         {
           "base": "args",
           "editable": true,
-          "id": "cc60a9d9-e423-407b-b928-2b5df89f1f6d",
+          "id": "01f801c5-8507-432e-93b4-0d1f79059661",
           "input": true,
           "inputPort": "5a45de8",
           "name": "args",
@@ -473,7 +473,7 @@
         {
           "base": "environ",
           "editable": true,
-          "id": "a48c08fd-2131-4d85-8786-68e477340010",
+          "id": "b681e53f-6386-4ebc-a7a3-8776b2e3d97e",
           "input": true,
           "inputPort": "5a46838",
           "name": "environ",
@@ -486,7 +486,7 @@
         {
           "base": "terminal_output",
           "editable": true,
-          "id": "e9953e09-851c-4fa7-bad2-97ed414b8288",
+          "id": "3f8ace87-6bca-4198-bf06-b722638b84c5",
           "input": true,
           "inputPort": "5a46c70",
           "name": "terminal_output",
@@ -499,7 +499,7 @@
         {
           "base": "ignore_exception",
           "editable": true,
-          "id": "6836aed5-8375-4c39-aa7f-6b86b2104dd0",
+          "id": "7040c861-d5aa-4f4b-8353-5000973501fe",
           "input": true,
           "inputPort": "5a47120",
           "name": "ignore_exception",
@@ -512,7 +512,7 @@
         {
           "base": "out_file",
           "editable": false,
-          "id": "a8f828bd-15c4-475c-81ba-0f053a19c868",
+          "id": "f156beeb-c8ad-4267-8881-d195c1e1d5d3",
           "input": false,
           "inputPort": false,
           "name": "out_file",
@@ -525,7 +525,7 @@
         {
           "base": "mask_file",
           "editable": false,
-          "id": "65ec1d16-510e-408c-a25c-440f4db888ab",
+          "id": "3ccc1a74-43db-44e4-88a6-ca22b944d7b4",
           "input": false,
           "inputPort": false,
           "name": "mask_file",
@@ -538,7 +538,7 @@
         {
           "base": "outline_file",
           "editable": false,
-          "id": "c5bd421b-da6e-4b91-aab1-2c8fac4c7a91",
+          "id": "8e98ca8e-ebe4-476e-911a-d651306f83aa",
           "input": false,
           "inputPort": false,
           "name": "outline_file",
@@ -551,7 +551,7 @@
         {
           "base": "meshfile",
           "editable": false,
-          "id": "ce949a17-5382-4b56-9b99-c6ae206fe6c6",
+          "id": "237cb0a9-5e9e-406e-bd66-cb5dd2903249",
           "input": false,
           "inputPort": false,
           "name": "meshfile",
@@ -564,7 +564,7 @@
         {
           "base": "inskull_mask_file",
           "editable": false,
-          "id": "31a2ede7-c7e7-47d7-a1ca-5b07b104a266",
+          "id": "d88c593d-4129-40ff-9dba-5dbc8bd5cfa7",
           "input": false,
           "inputPort": false,
           "name": "inskull_mask_file",
@@ -577,7 +577,7 @@
         {
           "base": "inskull_mesh_file",
           "editable": false,
-          "id": "6e9e0b89-6fe7-45a2-b6f8-717d5af4329b",
+          "id": "637e7dc2-2440-4377-ae41-0fe41516866d",
           "input": false,
           "inputPort": false,
           "name": "inskull_mesh_file",
@@ -590,7 +590,7 @@
         {
           "base": "outskull_mask_file",
           "editable": false,
-          "id": "e91ca079-a0da-45f0-8925-da601950e8cb",
+          "id": "d901a581-0f8c-4b62-8a2e-7360a2fe9248",
           "input": false,
           "inputPort": false,
           "name": "outskull_mask_file",
@@ -603,7 +603,7 @@
         {
           "base": "outskull_mesh_file",
           "editable": false,
-          "id": "3d0f451d-3a29-421f-9b22-629acf84be0a",
+          "id": "18792557-954d-4705-b7df-5d47d91caa5f",
           "input": false,
           "inputPort": false,
           "name": "outskull_mesh_file",
@@ -616,7 +616,7 @@
         {
           "base": "outskin_mask_file",
           "editable": false,
-          "id": "05b6aba9-ea46-4ed6-be5a-ff28744d7695",
+          "id": "fa353905-66fc-4c37-af70-cb89a87a2723",
           "input": false,
           "inputPort": false,
           "name": "outskin_mask_file",
@@ -629,7 +629,7 @@
         {
           "base": "outskin_mesh_file",
           "editable": false,
-          "id": "140fa9e6-e0ca-4dd7-b4e4-0f2c1d88314e",
+          "id": "5807f2cc-cb77-4247-98bc-472d41588183",
           "input": false,
           "inputPort": false,
           "name": "outskin_mesh_file",
@@ -642,7 +642,7 @@
         {
           "base": "skull_mask_file",
           "editable": false,
-          "id": "9b2d661a-74a7-404a-9c58-a2952ef9de7f",
+          "id": "4b4c44da-fdfa-410b-8930-829c1da68096",
           "input": false,
           "inputPort": false,
           "name": "skull_mask_file",
@@ -654,8 +654,8 @@
         }
       ],
       "position": [
-        -540.1019287109375,
-        -255.36357879638672
+        -800.6858520507812,
+        -270.9731979370117
       ],
       "title": {
         "code": [
@@ -688,7 +688,7 @@
         {
           "base": "BET_results",
           "editable": true,
-          "id": "a0c007af-3575-49e4-8b37-1146273aa7ce",
+          "id": "b989290c-895d-48e6-a477-4b83f1af1802",
           "input": true,
           "inputPort": "759f7e8",
           "name": "BET_results",
@@ -701,7 +701,7 @@
         {
           "base": "base_directory",
           "editable": true,
-          "id": "06001f0c-0457-4f87-b76b-07c2166b09ec",
+          "id": "0e42ddfc-ee36-4ab7-b861-3842222d85c4",
           "input": true,
           "inputPort": "75a04b8",
           "name": "base_directory",
@@ -714,7 +714,7 @@
         {
           "base": "container",
           "editable": true,
-          "id": "12db0e72-ce7e-4af3-9a4e-2960048fa502",
+          "id": "7bfe8990-87b5-44e0-bdb2-a466c9322f63",
           "input": true,
           "inputPort": "75a0990",
           "name": "container",
@@ -727,7 +727,7 @@
         {
           "base": "parameterization",
           "editable": true,
-          "id": "205139b7-298e-4fb8-b8a8-92a56f50e280",
+          "id": "6839ecaa-533c-4936-a964-552d4488de47",
           "input": true,
           "inputPort": "75a1700",
           "name": "parameterization",
@@ -740,7 +740,7 @@
         {
           "base": "strip_dir",
           "editable": true,
-          "id": "8f88d246-030d-44fa-93dc-a151eca7c17e",
+          "id": "b3591a2f-abff-4111-8e7f-87723df07a04",
           "input": true,
           "inputPort": "75a2088",
           "name": "strip_dir",
@@ -753,7 +753,7 @@
         {
           "base": "substitutions",
           "editable": true,
-          "id": "c6b2d9d8-3678-4b98-bb32-1c78037c9e9d",
+          "id": "35642936-8b14-4fac-a24a-f11f42e625d4",
           "input": true,
           "inputPort": "75a2da8",
           "name": "substitutions",
@@ -766,7 +766,7 @@
         {
           "base": "regexp_substitutions",
           "editable": true,
-          "id": "2e7db868-556d-4c78-ae44-0fd60e784602",
+          "id": "e62e6b7c-ad82-4160-ac6e-85ae17a916a4",
           "input": true,
           "inputPort": "75a3cf8",
           "name": "regexp_substitutions",
@@ -779,7 +779,7 @@
         {
           "base": "_outputs",
           "editable": true,
-          "id": "b021fe62-d957-4d85-823a-29d565c469e2",
+          "id": "5748f863-c340-46b7-b3eb-b7911cc14e04",
           "input": true,
           "inputPort": "75a4c98",
           "name": "_outputs",
@@ -792,7 +792,7 @@
         {
           "base": "remove_dest_dir",
           "editable": true,
-          "id": "b17e0611-d2b4-40b7-aa48-528db531bb50",
+          "id": "4d3cd359-5613-4c4e-ac33-83337d63270c",
           "input": true,
           "inputPort": "75a6930",
           "name": "remove_dest_dir",
@@ -805,7 +805,7 @@
         {
           "base": "creds_path",
           "editable": true,
-          "id": "f1ab1c9c-f4d5-43e9-b287-6384faad6224",
+          "id": "5f60cd60-6b71-43ca-8cfc-ce447e4e304b",
           "input": true,
           "inputPort": "75a78d0",
           "name": "creds_path",
@@ -818,7 +818,7 @@
         {
           "base": "encrypt_bucket_keys",
           "editable": true,
-          "id": "0c2e17fd-42d2-42da-973f-950bef5b5dfe",
+          "id": "4cdee5dd-f98e-4a33-a1b2-fe3d9019f22c",
           "input": true,
           "inputPort": "75a7f10",
           "name": "encrypt_bucket_keys",
@@ -831,7 +831,7 @@
         {
           "base": "bucket",
           "editable": true,
-          "id": "5d6646d2-7bba-406b-b970-439d767eaaa1",
+          "id": "a02f87f0-7059-4796-b7c3-af6777d8d47a",
           "input": true,
           "inputPort": "75a9338",
           "name": "bucket",
@@ -844,7 +844,7 @@
         {
           "base": "local_copy",
           "editable": true,
-          "id": "16b6e29f-f09f-4b08-b4b3-df657df44ccc",
+          "id": "8bb5ed61-5fec-446c-846f-24cd78a536db",
           "input": true,
           "inputPort": "75aa120",
           "name": "local_copy",
@@ -857,7 +857,7 @@
         {
           "base": "ignore_exception",
           "editable": true,
-          "id": "8f75dde2-bfb6-457f-bf71-c76954e19922",
+          "id": "327a62c4-ba98-4795-b507-b5659dd545cd",
           "input": true,
           "inputPort": "75aaa58",
           "name": "ignore_exception",
@@ -870,7 +870,7 @@
         {
           "base": "out_file",
           "editable": false,
-          "id": "53d8be49-519b-49a1-80f2-61a634b16b61",
+          "id": "7ed314b9-1b02-43dc-a3df-a8b377dae889",
           "input": false,
           "inputPort": false,
           "name": "out_file",
@@ -882,8 +882,8 @@
         }
       ],
       "position": [
-        -345,
-        -195
+        -214.2772216796875,
+        -181.6341323852539
       ],
       "title": {
         "code": [
@@ -905,6 +905,209 @@
         "name": "io_DataSink",
         "class": "io.DataSink",
         "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datasink"
+      }
+    },
+    {
+      "category": [
+        "Nipype",
+        "afni",
+        "preprocess"
+      ],
+      "ports": [
+        {
+          "base": "in_file",
+          "editable": true,
+          "id": "5876922c-1f8f-4b3f-90c2-a4eff3b32164",
+          "input": true,
+          "inputPort": "fadb98ce-9a2c-4a79-a4a0-590a6ca44a74",
+          "name": "in_file",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "polort",
+          "editable": true,
+          "id": "47412b8d-00a9-42a1-8238-b94678982d4f",
+          "input": true,
+          "inputPort": "200a45cc-ca4a-455d-9701-17c997a4ab6c",
+          "name": "polort",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "eta2",
+          "editable": true,
+          "id": "ccdf54a5-0b30-4c6f-a34c-b1272bdac430",
+          "input": true,
+          "inputPort": "1be82704-eee1-4d80-851b-53dc94a8519e",
+          "name": "eta2",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "mask",
+          "editable": true,
+          "id": "d4d04fe2-7e1d-49b6-a60b-bb6fb0549fb8",
+          "input": true,
+          "inputPort": "2e5812e6-36a2-4d28-aac4-71fecb0ca5c1",
+          "name": "mask",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "mask_only_targets",
+          "editable": true,
+          "id": "e707a5ea-8295-43ca-8b23-c47104cd89aa",
+          "input": true,
+          "inputPort": "5090941a-f645-44f5-b80b-679447c154dd",
+          "name": "mask_only_targets",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "mask_source",
+          "editable": true,
+          "id": "f874b0c4-c1e4-45c9-94f8-2c03170894e7",
+          "input": true,
+          "inputPort": "c9fb12fb-972a-48c7-b8b5-6abbccf37a12",
+          "name": "mask_source",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "out_file",
+          "editable": true,
+          "id": "5f297eb8-49bc-4e0a-8356-8509f4afe033",
+          "input": true,
+          "inputPort": "ba2ad2fe-78c6-46c4-a8ee-4ab982230abe",
+          "name": "out_file",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "outputtype",
+          "editable": true,
+          "id": "98ff6031-990d-4fd8-9096-9941b1faf945",
+          "input": true,
+          "inputPort": "b6d71694-4748-47a6-9181-24a3042204f2",
+          "name": "outputtype",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "args",
+          "editable": true,
+          "id": "36cd702b-4909-4ef2-85a8-68109926c9ab",
+          "input": true,
+          "inputPort": "7ad25696-7bcd-41f0-b980-b6e7f0511255",
+          "name": "args",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "environ",
+          "editable": true,
+          "id": "b78e2530-6bbf-40f1-b46b-8091218b8bcc",
+          "input": true,
+          "inputPort": "9669e7e4-2767-4a74-8965-b85460eddc2d",
+          "name": "environ",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "terminal_output",
+          "editable": true,
+          "id": "105d466e-9af4-443c-96fc-ac56418d2196",
+          "input": true,
+          "inputPort": "39f5b5b6-4807-43e0-8aa4-a8e7216968fd",
+          "name": "terminal_output",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "ignore_exception",
+          "editable": true,
+          "id": "c30a4637-d1bd-4af9-9dd1-6e0dc827105b",
+          "input": true,
+          "inputPort": "e996147f-d09d-4537-ae96-722b1b4371a3",
+          "name": "ignore_exception",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "out_file",
+          "editable": false,
+          "id": "a77f3812-e837-447b-b7ee-d54ec5c72ba7",
+          "input": false,
+          "inputPort": false,
+          "name": "out_file",
+          "output": true,
+          "outputPort": "aff116bc-5dda-42c3-b0f2-84b6eea54f52",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -667.3636831413124,
+        -123.53107477787256
+      ],
+      "title": {
+        "code": [
+          {
+            "language": "Nipype",
+            "comment": "Wraps command **3dAutoTcorrelate**",
+            "argument": {
+              "name": "afni.AutoTcorrelate()",
+              "import": "import nipype.interfaces.afni as afni"
+            }
+          },
+          {
+            "language": "Docker",
+            "argument": {
+              "name": "Nipype, afni"
+            }
+          }
+        ],
+        "name": "afni_AutoTcorrelate",
+        "class": "afni.AutoTcorrelate",
+        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#autotcorrelate"
       }
     }
   ],
